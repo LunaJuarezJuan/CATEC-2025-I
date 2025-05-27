@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="CATEC 2024-II UNIVERSIDAD PRIVADA DE TACNA">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<title>CATEC 2024-II</title>
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800|Roboto:300,400,700&display=swap"
+		rel="stylesheet">
+
+	<!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+
+	<!-- Theme CSS -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+</head>
+
+<body>
+	<header id="header" class="header fixed-top">
+		<div class="branding">
+			<div class="container-fluid">
+				<nav class="main-nav navbar navbar-expand-lg">
+					<div class="site-logo"><a class="scrollto" href="#hero-block"><img class="logo-icon"
+							src="assets/images/logo-blanco.png" alt="logo" style="height: 80px;"></a></div>
+					
+					<div class="navbar-btn order-lg-2"><a class="btn theme-bg-primary" style="color: white;"
+							href="https://docs.google.com/forms/d/e/1FAIpQLSfAA2Fs44nUPaFzadPBa2wbb_4TDeKIsvtv8agfK1lVikOVvg/viewform?usp=sf_link" target="_blank">Inscríbete aquí</a></div>
+
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+						aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div id="navigation" class="navbar-collapse collapse  justify-content-lg-end mr-lg-3">
+						<ul class="nav navbar-nav">
+							<li class="nav-item"><a class="nav-link scrollto" href="#about-section">Acerca de</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#speakers-section">Ponentes</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#schedule-section">Calendario</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#tickets-section">Registrarse</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#venue-section">Antecedentes</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#sponsors-section">Patrocinadores</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#asistencia-section">Asistencia</a></li>
+						</ul>
+						<!--//nav-->
+					</div>
+					<!--//navabr-collapse-->
+
+				</nav>
+				<!--//main-nav-->
+
+			</div>
+			<!--//container-->
+		</div>
+		<!--//branding-->
+	</header>
+	<!--//header-->
+	<!-- <div id="hero-block" class="hero-block"> -->
+		<!-- https://vimeo.com/877124710?share=copy#t=0 -->
+		<div class="container-fluid p-0">
+			<!-- Agrega una clase "video-container" para crear un contenedor responsive -->
+			<div class="embed-responsive video-container">
+			  <!-- Agrega tu iframe de Vimeo con las opciones que necesitas -->
+			  <video id="video" autoplay muted controls>
+				<source src="assets/video/Catec2024II.mp4" type="video/mp4">
+			</div>
+		  </div>
+		
+		<!-- <img src="assets/images/catec-2024-ii.png" class="img-fluid" alt="Responsive image"> -->
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+			  var video = document.getElementById("video");
+			  video.play(); // Reproduce el video automáticamente al cargar la página
+			});
+		  </script>
+	<!-- </div> -->
+	<!--//hero-block-->
+
+	<div class="info-cuantificable">
+		<div class="stats-block text-white py-4 text-center">
+			<div class="container">
+				<div class="row justify-content-around">
+					<div class="col-6 col-md-2">
+						<div class="item">
+							<div class="number">100+</div>
+							<div class="unit" style="color: white;">Estudiantes</div>
+						</div>
+						<!--//item-->
+					</div>
+					<!--//col-->
+					<div class="col-6 col-md-2">
+						<div class="item">
+							<div class="number">5</div>
+							<div class="unit" style="color: white;">Temas</div>
+						</div>
+						<!--//item-->
+					</div>
+					<!--//col-->
+					<div class="col-6 col-md-2">
+						<div class="item">
+							<div class="number">6</div>
+							<div class="unit" style="color: white;">Ponentes</div>
+						</div>
+						<!--//item-->
+					</div>
+					<!--//col-->
+					<div class="col-6 col-md-2">
+						<div class="item">
+							<div class="number">1</div>
+							<div class="unit" style="color: white;">Podcast</div>
+						</div>
+						<!--//item-->
+					</div>
+					<!--//col-->
+					<div class="col-6 col-md-2">
+						<div class="item">
+							<div class="number">4</div>
+							<div class="unit" style="color: white;">Dias</div>
+						</div>
+						<!--//item-->
+					</div>
+				</div>
+			</div>
+			<!--//container-->
+		</div>
+	</div>
+	<!--//stats-block-->
+
+	<section id="about-section" class="about-section section theme-bg-light">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3" style="color: #3F2A8C;">Acerca de CATEC</h3>
+			<div class="section-intro single-col-max mx-auto mb-4 text-justify" >
+				El evento CATEC es un evento Universitario realizado cada año por un grupo de estudiantes del curso de
+				Taller de Liderazgo y Emprendimiento denominado <strong>“FORJANDO LÍDERES”</strong> de la Universidad
+				Privada de Tacna, quienes actualmente se encuentran organizando el evento “CATEC 2024-II”, evento de
+				Capacitación Tecnológica dirigida a estudiantes de ingeniería e interesados.
+			</div>
+			<br>
+			<div class="benefits-list text-center mb-3">
+				<h4 class="text-center mb-4" style="color: #3F2A8C;">¿Porque unirte al CATEC?</h4>
+				<ul class="list-unstyled text-left d-inline-block">
+					<li><i class="fas fa-check-circle mr-3" style="color: #3F2A8C;"></i>Vuelve tu red más amplia</li>
+					<li><i class="fas fa-check-circle mr-3" style="color: #3F2A8C;"></i>Aprendo sobre lo mejor de las industrias tecnológicas
+					</li>
+					<li><i class="fas fa-check-circle mr-3" style="color: #3F2A8C;"></i>Descubre nuevas herramientas y mejores practicas</li>
+					<li><i class="fas fa-check-circle mr-3" style="color: #3F2A8C;"></i>Conoce desarrolladores de todo el mundo</li>
+					<li><i class="fas fa-check-circle mr-3" style="color: #3F2A8C;"></i>Ponencias interactivas</li>
+					<li><i class="fas fa-check-circle mr-3" style="color: #3F2A8C;"></i>Premios para los asistentes más activos</li>
+					<li><i class="fas fa-check-circle mr-3" style="color: #3F2A8C;"></i>Sobre todo es Gratis <strong><a
+								href="https://www.youtube.com/channel/UC-66owxXp5mgIHxQlg3v2OA" target="_blank">CATEC</a></strong></li>
+				</ul>
+			</div>
+			<br>
+			<!--Perfiles de Ponentes-->
+			<section  id="speakers-section" class="speakers-section section">
+				<h2 class="text-center" style="color: #3F2A8C;">PONENTES</h2>
+				<div class="container">
+					
+					<div class="row">
+						<!--Perfil 1-->
+						<div class="col-md-4 py-2">
+							<div class="card profile-card-3">
+								<div class="background-block">
+									<img src="assets/images/flags/inteligencia-artificial.jpg" alt="profile-sample1" class="background"/>
+								</div>
+								<div class="profile-thumb-block">
+									<img style="width: 105px; height: 105px;" src="assets/images/p4.jpg" alt="profile-image" class="profile"/>
+								</div>
+								<div class="card-content">
+								<h2>Israel Nazareth Chaparro Cruz<small>Ingeniero de Sistemas</small></h3>
+								<div class="icon-block"><a href="#"><svg xmlns="https://www.linkedin.com/in/israel-nazareth-chaparro-cruz-482119319/" height="1em" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a></div>
+								</div>
+							</div>
+						</div>
+						<!--Fin Perfil 1-->
+						<!--Perfil 2-->
+						<div class="col-md-4 py-2">
+							<div class="card profile-card-3">
+								<div class="background-block">
+									<img src="assets/images/flags/tecnologia.jpg" alt="profile-sample1" class="background"/>
+								</div>
+								<div class="profile-thumb-block">
+									<img style="width: 105px; height: 105px;" src="assets/images/p2.jpg" alt="profile-image" class="profile"/>
+								</div>
+								<div class="card-content">
+								<h2>Leandro Calculli<small>Ingeniero de Sistemas</small></h3>
+								<div class="icon-block"><a href="https://www.linkedin.com/in/leandrocalculli/"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a></div>
+								</div>
+							</div>
+						</div>
+						<!--Fin Perfil 2-->
+						<!--Perfil 3-->
+						<div class="col-md-4 py-2">
+							<div class="card profile-card-3">
+								<div class="background-block">
+									<img src="assets/images/flags/cloud_computing.jpg" alt="profile-sample1" class="background"/>
+								</div>
+								<div class="profile-thumb-block">
+									<img style="width: 105px; height: 105px;" src="assets/images/ing.renzo.jpeg" alt="profile-image" class="profile"/>
+								</div>
+								<div class="card-content">
+								<h2>Renzo Alberto Taco Coayla<small>Doctor en Ingeniero de Sistemas</small></h3>
+								<div class="icon-block"><a href="https://www.linkedin.com/in/dr-renzo-taco-coayla-2911819b/?originalSubdomain=pe"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a></div>
+								</div>
+							</div>
+						</div>
+						<!--Fin Perfil 3-->
+						<br> <br>
+						<!--Perfil 4-->
+						<div class="col-md-4 py-2">
+							<div class="card profile-card-3">
+								<div class="background-block">
+									<img src="assets/images/flags/ethical_hacking.jpg" alt="profile-sample1" class="background"/>
+								</div>
+								<div class="profile-thumb-block">
+									<img style="width: 105px; height: 105px;" src="assets/images/p1.jpg" alt="profile-image" class="profile"/>
+								</div>
+								<div class="card-content">
+								<h2>Lizandro Lezaeta<small>Maestro en Ingenieria de Sistemas</small></h3>
+								<div class="icon-block"><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a></div>
+								</div>
+							</div>
+						</div>
+						<!--Fin Perfil 4-->
+						<!--Perfil 5-->
+						<div class="col-md-4 py-2">
+							<div class="card profile-card-3">
+								<div class="background-block">
+									<img src="assets/images/flags/criminologia-wide.jpg" alt="profile-sample1" class="background"/>
+								</div>
+								<div class="profile-thumb-block">
+									<img style="width: 105px; height: 105px;" src="assets/images/p3.jpeg" alt="profile-image" class="profile"/>
+								</div>
+								<div class="card-content">
+								<h2>Diego Luis Bardales Plaza<small>Ingeniero de Sistemas</small></h3>
+								<div class="icon-block"><a href="https://www.linkedin.com/in/diegobardalez/"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a></div>
+								</div>
+							</div>
+						</div>
+						<!--Fin Perfil 5-->
+						<!--Perfil 6-->
+						<div class="col-md-4 py-2">
+							<div class="card profile-card-3">
+								<div class="background-block">
+									<img src="assets/images/flags/videojuegos.jpeg" alt="profile-sample1" class="background"/>
+								</div>
+								<div class="profile-thumb-block">
+									<img style="width: 105px; height: 105px;" src="assets/images/p5.png" alt="profile-image" class="profile"/>
+								</div>
+								<div class="card-content">
+								<h2>Julián David Rozo Montealegre<small>Desarrollador de Videojuegos</small></h3>
+								<div class="icon-block"><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a></div>
+								</div>
+							</div>
+						</div>
+						<!--Fin Perfil 6-->
+						<!--Perfil 7-->
+						<div class="col-md-4 py-2">
+							<div class="card profile-card-3">
+								<div class="background-block">
+									<img src="assets/images/flags/Microservicios.jpg" alt="profile-sample1" class="background"/>
+								</div>
+								<div class="profile-thumb-block">
+									<img style="width: 105px; height: 105px;" src="assets/images/p6.jpg" alt="profile-image" class="profile"/>
+								</div>
+								<div class="card-content">
+								<h2>Edwin Delgado Huaynalaya<small>Maestro en Ingeniería de Sistemas</small></h3>
+								<div class="icon-block"><a href="#"><svg xmlns="" height="1em" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a></div>
+								</div>
+							</div>
+						</div>
+						<!--Fin Perfil 7-->
+						<!--Perfil 8-->
+						<div class="col-md-4 py-2">
+							<div class="card profile-card-3">
+								<div class="background-block">
+									<img src="assets/images/flags/machine.jpg" alt="profile-sample1" class="background"/>
+								</div>
+								<div class="profile-thumb-block">
+									<img style="width: 105px; height: 105px;" src="assets/images/p7.png" alt="profile-image" class="profile"/>
+								</div>
+								<div class="card-content">
+								<h2>Carlos Alberto Cardenas Cruz<small>Ingeniero de Sistemas</small></h3>
+								<div class="icon-block"><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a></div>
+								</div>
+							</div>
+						</div>
+						<!--Fin Perfil 8-->
+						<!--Perfil 9-->
+						<div class="col-md-4 py-2">
+							<div class="card profile-card-3">
+								<div class="background-block">
+									<img src="assets/images/flags/ciencia.jpg" alt="profile-sample1" class="background"/>
+								</div>
+								<div class="profile-thumb-block">
+									<img style="width: 105px; height: 105px;" src="assets/images/p8.png" alt="profile-image" class="profile"/>
+								</div>
+								<div class="card-content">
+								<h2>Branco Conislla Cahuna<small>Bachiller en Ingeniero de Sistemas</small></h3>
+								<div class="icon-block"><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a></div>
+								</div>
+							</div>
+						</div>
+						<!--Fin Perfil 9-->
+						<br> <br>
+
+					</div>
+				</div>
+			</section>
+			<section id="schedule-section" class="schedule-section section">
+				<h3 class="section-heading text-center mb-3" style="color: #3F2A8C;">CALENDARIO</h3>
+				<div class="container-fluid">
+					<ul class="schedule-nav nav nav-pills nav-fill" id="myTab" role="tablist">
+						<li class="nav-item  mr-2">
+							<a class="nav-link active" id="tab-1" data-toggle="tab" href="#day-1" role="tab"
+								aria-controls="day-1" aria-selected="true">
+								<span class="heading">Día 1</span>
+								<span class="meta">(Lunes 21, Octubre)</span>
+							</a>
+						</li>
+						<li class="nav-item  mr-2">
+							<a class="nav-link" id="tab-2" data-toggle="tab" href="#day-2" role="tab"
+								aria-controls="day-2" aria-selected="false">
+								<span class="heading">Día 2</span>
+								<span class="meta">(Martes 22, Octubre)</span>
+							</a>
+						</li>
+						<li class="nav-item  mr-2">
+							<a class="nav-link" id="tab-3" data-toggle="tab" href="#day-3" role="tab"
+								aria-controls="day-3" aria-selected="false">
+								<span class="heading">Día 3</span>
+								<span class="meta">(Miercoles 23, Octubre)</span>
+							</a>
+						</li>
+						<li class="nav-item  mr-2">
+							<a class="nav-link" id="tab-4" data-toggle="tab" href="#day-4" role="tab"
+								aria-controls="day-4" aria-selected="false">
+								<span class="heading">Día 4</span>
+								<span class="meta">(Jueves 24, Octubre)</span>
+							</a>
+						</li>
+						
+					  </ul>
+					<br>
+						  <div class="tab-content" id="pills-tabContent">
+								<div class="tab-pane fade show active" id="day-1" role="tabpanel" aria-labelledby="tab-1">
+								<!--DIA 1-->
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12">
+											<h2 class="text-center" style="color: #3F2A8C;">EN LA TARDE</h2>
+											<div class="main-timeline">
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-address-book"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Registro de Asistentes</h3>
+															<p class="description">Se registran los estudiantes para la asistencia mediante un formulario de Google.</p>
+															<h5 class="title">(16:20 - 16:45)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-rocket"></i>
+														</div>
+														<div class="timeline-year"><img class="rounded-circle" src="assets/images/IngMartha.jpg" alt="" style="width: 105px; height: 105px;"></div>
+														<div class="inner-content">
+															<h3 class="title">Inauguración del Evento </h3>
+															<h6 class="title" style="font-size:15px;">Dra. Martha Judith Paredes Vignola</h6>
+															<p class="description">Directora de la Escuela Profesional Ingeniería de Sistemas, dará las palabras iniciales para comenzar la capacitación tecnológica.</p>
+															<h5 class="title">(16:45 - 17:00)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-comments-dollar"></i>
+														</div>
+														<div class="timeline-year"><img class="rounded-circle" src="assets/images/p4.jpg" alt="" style="width: 105px; height: 105px;"></div>
+														<div class="inner-content">
+															<h3 class="title">1ra Ponencia: Inteligencia Artificial</h3>
+															<h6 class="title" style="font-size:15px;">Ing. Israel Chaparro</h6>
+															<div class="content">
+																<div class="shortText">
+																<p class="description">Se abordarán los conceptos fundamentales y aplicaciones más destacadas de la Inteligencia Artificial (IA).</div>
+																	<div class="fullText" style="display: none;">Se explora cómo las técnicas de aprendizaje automático,
+																		redes neuronales y procesamiento del lenguaje natural están transformando sectores
+																		como la salud, la educación y la industria. Además, se discutirán los retos éticos
+																		y sociales que surgen con el uso de IA y las implicaciones futuras para la sociedad.</p>
+																</div>
+																<button class="btn btn-link showMoreButton">Ver más</button>
+																<button class="btn btn-link showLessButton" style="display: none;">Ver menos</button>
+															</div>
+																<h5 class="title">(17:00 – 17:50)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-question"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Preguntas de los espectadores</h3>
+															<p class="description">Los espectadores redactarán sus preguntas en un formato entregado en el evento y serán respondidas por el ponente, para que luego se escoja una entre las realizadas y otorgar el premio al responsable.</p>
+															<h5 class="title">(17:50 – 18:00)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-comments-dollar"></i>
+														</div>
+														<div class="timeline-year"><img class="rounded-circle" src="assets/images/p2.jpg" alt="" style="width: 105px; height: 105px;"></div>
+														<div class="inner-content">
+															<h3 class="title">2da Ponencia: Diseño Centrado en el Usuario: Claves para el exito de productos digitales</h3>
+															<h6 class="title" style="font-size:15px;">Mgr. Leandro Calculli</h6>
+															<div class="content">
+																<div class="shortText">
+																<p class="description">Las mejores prácticas y principios del diseño centrado en el usuario (DCU) aplicados a productos digitales.</div>
+																	<div class="fullText" style="display: none;">Las mejores prácticas y principios del diseño centrado en el usuario (DCU) aplicados a
+																		productos digitales. Se abordan las técnicas para optimizar la experiencia del usuario desde la fase de
+																		investigación hasta el lanzamiento final, con el fin de crear soluciones intuitivas, funcionales y accesibles.</p>
+																</div>
+																<button class="btn btn-link showMoreButton">Ver más</button>
+																<button class="btn btn-link showLessButton" style="display: none;">Ver menos</button>
+															</div>
+																<h5 class="title">(18:00 – 18:50)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-question"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Preguntas de los espectadores</h3>
+															<p class="description">Los espectadores redactarán sus preguntas en un formato entregado en el evento y serán respondidas por el ponente, para que luego se escoja una entre las realizadas y otorgar el premio al responsable.</p>
+															<h5 class="title">(18:50 – 19:00)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-comments-dollar"></i>
+														</div>
+														<div class="timeline-year"><img class="rounded-circle" src="assets/images/ing.renzo.jpeg" alt="" style="width: 105px; height: 105px;"></div>
+														<div class="inner-content">
+															<h3 class="title">3ra Ponencia: Clustering en Base de Datos</h3>
+															<h6 class="title" style="font-size:15px;">Ing. Renzo Taco</h6>
+															<div class="content">
+																<div class="shortText">
+																<p class="description">Se abordará el concepto de clustering en bases de datos, una técnica de análisis de datos no
+																	supervisada utilizada para agrupar datos similare.</div>
+																	<div class="fullText" style="display: none;">Se explicarán cómo estos algoritmos permiten descubrir patrones
+																		y estructuras ocultas en grandes conjuntos de datos. Además, se mostrarán aplicaciones prácticas del
+																		clustering en sectores como el marketing, la biomedicina y la segmentación de usuarios, resaltando su valor
+																		para la toma de decisiones estratégicas.</p>
+																</div>
+																<button class="btn btn-link showMoreButton">Ver más</button>
+																<button class="btn btn-link showLessButton" style="display: none;">Ver menos</button>
+															</div>
+																<h5 class="title">(19:00 – 19:50)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-question"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Preguntas de los espectadores</h3>
+															<p class="description">Los espectadores redactarán sus preguntas en un formato entregado en el evento y serán respondidas por el ponente, para que luego se escoja una entre las realizadas y otorgar el premio al responsable.</p>
+															<h5 class="title">(19:50 – 20:00)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-circle"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Despedida e invitación al siguiente evento.</h3>
+															<p class="description">Agradecemos su participación el día de hoy. ¡Esperamos contar con su presencia mañana con las nuevas ponencias llenas de conocimiento y aprendizaje!</p>
+															<h5 class="title">(20:00 – 20:05)</h5>
+														</div>
+													</div>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!--Cierre DIA 1-->
+
+								</div>
+								<div class="tab-pane fade" id="day-2" role="tabpanel" aria-labelledby="tab-2">
+								
+								<!--DIA 2-->
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12">
+											<h2 class="text-center" style="color: #3F2A8C;">EN LA TARDE</h2>
+											<div class="main-timeline">
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-address-book"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Registro de Asistentes</h3>
+															<p class="description">Se registran los estudiantes para la asistencia mediante un formulario de Google.</p>
+															<h5 class="title">(16:20 - 16:45)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-question"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Inauguración del evento.</h3>
+															<p class="description">Se da la bienvenida a los estudiantes y el seminario del día comienza.</p>
+															<h5 class="title">(16:45 – 17:00)</h5>
+														</div>
+													</div>
+												</div>
+												
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-comments-dollar"></i>
+														</div>
+														<div class="timeline-year"><img class="rounded-circle" src="assets/images/p9.png" alt="" style="width: 105px; height: 105px;"></div>
+														<div class="inner-content">
+															<h3 class="title">4ta Ponencia: Introducción al Hacking Ético</h3>
+															<h6 class="title" style="font-size:15px;">Mtro. Lisandro Lezaeta<br> Ing. Diego Luis Bardalez</h6>
+															<div class="content">
+																<div class="shortText">
+																<p class="description">Se proporcionará una visión general del hacking ético, destacando su
+																	importancia en la seguridad cibernética moderna.</div>
+																	<div class="fullText" style="display: none;">Se ofrecerá una visión general del hacking ético,
+																		destacando su importancia para la ciberseguridad, además, se explicará cómo los hackers
+																		éticos, o "white hats", utilizan técnicas de ataque para identificar vulnerabilidades en
+																		sistemas informáticos con el fin de mejorar su seguridad. Se presentarán conceptos clave
+																		como pruebas de penetración, análisis de vulnerabilidades y los marcos legales que regulan
+																		esta práctica.</p>
+																</div>
+																<button class="btn btn-link showMoreButton">Ver más</button>
+																<button class="btn btn-link showLessButton" style="display: none;">Ver menos</button>
+															</div>
+																<h5 class="title">(17:00 – 17:50)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-question"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Preguntas de los espectadores</h3>
+															<p class="description">Los espectadores redactarán sus preguntas en un formato entregado en el evento y serán respondidas por el ponente, para que luego se escoja una entre las realizadas y otorgar el premio al responsable.</p>
+															<h5 class="title">(17:50 – 18:00)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-comments-dollar"></i>
+														</div>
+														<div class="timeline-year"><img class="rounded-circle" src="assets/images/p5.png" alt="" style="width: 105px; height: 105px;"></div>
+														<div class="inner-content">
+															<h3 class="title">5ta Ponencia: Desarrollo de Videojuegos</h3>
+															<h6 class="title" style="font-size:15px;">Dev. Julian David Rozo Montealegre</h6>
+															<div class="content">
+																<div class="shortText">
+																<p class="description">Se exponddrán los desafíos y retos en el área de desarrollo de videojuegos.</div>
+																	<div class="fullText" style="display: none;">LA LOCURA DE LOS BILLIARDS» es un juego que combina el billar
+																		de 8 bolas con una aventura de fantasía. El ponente contará como fue el desarrollo de dicho videojuego
+																		a la vez que dará puntos clave para el desarrollo de juegos.</p>
+																</div>
+																<button class="btn btn-link showMoreButton">Ver más</button>
+																<button class="btn btn-link showLessButton" style="display: none;">Ver menos</button>
+															</div>
+																<h5 class="title">(18:00 – 18:50)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-question"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Preguntas de los espectadores</h3>
+															<p class="description">Los espectadores redactarán sus preguntas en un formato entregado en el evento y serán respondidas por el ponente, para que luego se escoja una entre las realizadas y otorgar el premio al responsable.</p>
+															<h5 class="title">(18:50 – 19:00)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-circle"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Despedida e invitación al Programmin Contest y siguiente ponencia.</h3>
+															<p class="description">Agradecemos su participación el día de hoy. ¡Esperamos contar con su presencia mañana con las nuevas ponencias llenas de conocimiento y aprendizaje!</p>
+															<h5 class="title">(19:00 – 19:05)</h5>
+														</div>
+													</div>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!--Cierre DIA 2-->
+
+								</div>
+								<div class="tab-pane fade" id="day-3" role="tabpanel" aria-labelledby="tab-3">
+								<!--Dia 3-->
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12">
+											<h2 class="text-center" style="color: #3F2A8C;">EN LA TARDE</h2>
+											<div class="main-timeline">
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-address-book"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Presentacion del Evento Programming Contest</h3>
+															<p class="description">Este evento está diseñado para poner a prueba y fomentar el conocimiento programación entre los estudiantes de la Escuela de Ingeniería de Sistemas.</p>
+															<h5 class="title">(14:50 - 15:00)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-bolt"></i>
+														</div>
+														<div class="timeline-year"><img class="rounded-circle" src="assets/images/logos/programmingLOGO.png" alt="" style="width: 105px; height: 105px;"></div>
+														<div class="inner-content">
+															<h3 class="title">Programming Contest</h3>
+															<h6 class="title" style="font-size:15px;"></h6>
+															<div class="content">
+																<div class="shortText">
+																<p class="description">Comienza el concurso.</div>
+																	<div class="fullText" style="display: none;">
+																		Al terminar el concurso, se anuncian los ganadores, se les premia y se invita a la siguiente ponencia del CATEC 2024-II.</p>
+																</div>
+																<button class="btn btn-link showMoreButton">Ver más</button>
+																<button class="btn btn-link showLessButton" style="display: none;">Ver menos</button>
+																</div>
+																<h5 class="title">(15:00 – 16:50 )</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-address-book"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Registro de Asistentes</h3>
+															<p class="description">Se registran los estudiantes para la asistencia mediante un formulario de Google.</p>
+															<h5 class="title">(16:50 - 17:00)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-question"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Inauguración del evento.</h3>
+															<p class="description">Se da la bienvenida a los estudiantes y el seminario del día comienza.</p>
+															<h5 class="title">(17:00 – 17:05)</h5>
+														</div>
+													</div>
+												</div>
+												
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-comments-dollar"></i>
+														</div>
+														<div class="timeline-year"><img class="rounded-circle" src="assets/images/p6.jpg" alt="" style="width: 105px; height: 105px;"></div>
+														<div class="inner-content">
+															<h3 class="title">6ta Ponencia: Arquitectura de Software: Monolitos a Microservicios</h3>
+															<h6 class="title" style="font-size:15px;">Msc. Edwin Delgado</h6>
+															<div class="content">
+																<div class="shortText">
+																<p class="description">Se abordará la evolución de la arquitectura de software, desde los sistemas monolíticos tradicionales hasta los modernos enfoques basados en microservicios.</div>
+																	<div class="fullText" style="display: none;">Se analizará la evolución de la arquitectura de software,
+																		desde los sistemas monolíticos tradicionales hasta el enfoque moderno basado en microservicios.
+																		Se discutirán las ventajas que ofrecen los microservicios, como la escalabilidad y la flexibilidad,
+																		así como los desafíos que surgen al migrar desde una arquitectura monolítica.</p>
+																</div>
+																<button class="btn btn-link showMoreButton">Ver más</button>
+																<button class="btn btn-link showLessButton" style="display: none;">Ver menos</button>
+															</div>
+																<h5 class="title">(17:05 – 17:55)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-question"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Preguntas de los espectadores</h3>
+															<p class="description">Los espectadores redactarán sus preguntas en un formato entregado en el evento y serán respondidas por el ponente, para que luego se escoja una entre las realizadas y otorgar el premio al responsable.</p>
+															<h5 class="title">(17:55 – 18:05)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-circle"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Despedida e invitación a la siguiente ponencia.</h3>
+															<p class="description">Agradecemos su participación el día de hoy. ¡Esperamos contar con su presencia mañana con las nuevas ponencias llenas de conocimiento y aprendizaje!</p>
+															<h5 class="title">(18:05 – 18:10)</h5>
+														</div>
+													</div>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<!--Cierre del Dia 3-->
+
+								</div>
+								<div class="tab-pane fade" id="day-4" role="tabpanel" aria-labelledby="tab-4">
+								<!--Dia 4-->
+								<!--En la tarde-->
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12">
+											<h2 class="text-center" style="color: #3F2A8C;">EN LA TARDE</h2>
+											<div class="main-timeline">
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-address-book"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Registro de Asistentes</h3>
+															<p class="description">Se registran los estudiantes para la asistencia mediante un formulario de Google.</p>
+															<h5 class="title">(16:20 - 16:45)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-question"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Inauguración del evento.</h3>
+															<p class="description">Se da la bienvenida a los estudiantes y el seminario del día comienza.</p>
+															<h5 class="title">(16:45 – 17:00)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-globe"></i>
+														</div>
+														
+														<div class="timeline-year"><img class="rounded-circle" src="assets/images/p7.png" alt="" style="width: 105px; height: 105px;"></div>
+														<div class="inner-content">
+															<h3 class="title">7ma Ponencia: Proyectos Exitosos: Cómo Lograrlo</h3>
+															<h6 class="title" style="font-size:15px;">Ing. Carlos Alberto Cardenas Cruz</h6>
+															<div class="content">
+																<div class="shortText">
+																<p class="description">Se abracarán los elementos clave para llevar a cabo proyectos exitosos en distintos ámbitos.</div>
+																	<div class="fullText" style="display: none;">Se explorarán factores como la planificación estratégica, la gestión
+																		efectiva del equipo, el uso adecuado de metodologías ágiles y la toma de decisiones informadas. A través de
+																		ejemplos de proyectos reales, se mostrarán las mejores prácticas y lecciones aprendidas para superar obstáculos
+																		comunes y alcanzar los objetivos planteados.</p>
+																	</div>
+																	<button class="btn btn-link showMoreButton">Ver más</button>
+																	<button class="btn btn-link showLessButton" style="display: none;">Ver menos</button>
+																	</div>
+																<h5 class="title">(17:00 – 17:50)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-question"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Preguntas de los espectadores</h3>
+															<p class="description">Los espectadores redactarán sus preguntas en un formato entregado en el evento y serán respondidas por el ponente, para que luego se escoja una entre las realizadas y otorgar el premio al responsable.</p>
+															<h5 class="title">(17:50 - 18:00)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-question"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Break</h3>
+															<p class="description">Descanso de diez minutos.</p>
+															<h5 class="title">(18:00 - 18:10)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-globe"></i>
+														</div>
+														
+														<div class="timeline-year"><img class="rounded-circle" src="assets/images/p10.png" alt="" style="width: 105px; height: 105px;"></div>
+														<div class="inner-content">
+															<h3 class="title">Debate: "Software Propietario VS Software Libre"</h3>
+															<h6 class="title" style="font-size:15px;">Ing. Renzo Taco Coayla<br> Ing. Branco Conislla Cahuna</h6>
+															<div class="content">
+																<div class="shortText">
+																<p class="description">Este debate explorará las diferencias entre el software propietario y el software libre, analizando sus ventajas, limitaciones y el impacto en el desarrollo tecnológico.</div>
+																	<div class="fullText" style="display: none;">Los participantes debatirán sobre aspectos clave como la seguridad,
+																		costos, control, y la innovación en ambos modelos,
+																		así como el impacto que tienen en la comunidad tecnológica y el usuario final.</p>
+																	</div>
+																	<button class="btn btn-link showMoreButton">Ver más</button>
+																	<button class="btn btn-link showLessButton" style="display: none;">Ver menos</button>
+																	</div>
+																<h5 class="title">(18:10 – 19:10)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-question"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Preguntas de los espectadores</h3>
+															<p class="description">Los espectadores redactarán sus preguntas en un formato entregado en el evento y serán respondidas por el ponente, para que luego se escoja una entre las realizadas y otorgar el premio al responsable.</p>
+															<h5 class="title">(19:10 - 19:20)</h5>
+														</div>
+													</div>
+												</div>
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-question"></i>
+														</div>
+														<div class="inner-content">
+															<h3 class="title">Entrega de Premios</h3>
+															<p class="description">Se hace entrega de los premios a los participantes de las ponencias del CATEC2024-II .</p>
+															<h5 class="title">(19:20 - 19:40)</h5>
+														</div>
+													</div>
+												</div>
+										
+												<div class="timeline">
+													<div class="timeline-content">
+														<div class="timeline-icon">
+															<i class="fa fa-rocket"></i>
+														</div>
+														<div class="timeline-year"><img class="rounded-circle" src="assets/images/IngMartha.jpg" alt="" style="width: 105px; height: 105px;"></div>
+														<div class="inner-content">
+															<h3 class="title">Clausura del Evento </h3>
+															<h6 class="title" style="font-size:15px;">Dra. Martha Judith Paredes Vignola</h6>
+															<p class="description">Directora de la Escuela Profesional Ingeniería de Sistemas, Dara las palabras finales para culminar la capacitación tecnológica.</p>
+															<h5 class="title">(19:40 - 20:00)</h5>
+														</div>
+													</div>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--Cierre del Dia 4-->
+								</div>
+						  </div>
+				</div>
+			</section>
+			<!--//benefits-list-->
+			<div class="event-countdown text-center mb-3">
+				<h4 class="countdown-intro mb-2 text-center mb-3" style="color: #3F2A8C;">El evento ya ha comenzado!</h4>
+				<h4 class="countdown-intro mb-2 text-center mb-3" style="color: #3F2A8C;">Prepárate para unirte a nosotros en nuestro canal de Youtube y Facebook</h4>
+				<br>
+				<!-- <div id="countdown-box" class="countdown-box"></div> -->
+			</div>
+			<!--//event-countdown-->
+			<br>
+			<div class="row justify-content-center">
+				<div class="col-5">
+					<div class="about-cta text-center mb-5 ">
+						<a class="btn btn-warning btn-lg  mb-5 "
+							href="https://www.youtube.com/channel/UC-66owxXp5mgIHxQlg3v2OA" target="_blank"><img
+								class="mb-1 mr-2" src="assets/images/youtube.png" />Ingresa aqui</a>
+					</div>
+				</div>
+				<div class="col-5 justify-content-center">
+					<div class="about-cta text-center mb-5 ">
+						<a class="btn btn-warning btn-lg  mb-5 " href="https://www.facebook.com/share/T4si1anfbWPzJNZh/?mibextid=qi2Omg"
+							target="_blank"><img class="mb-1 mr-2" src="assets/images/facebook.png" />Ingresa aqui</a>
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+		<!--//container-->
+		<!--Nuevo Contenedor-->
+		
+		<br>
+		<!--Cierre de Contenedor-->
+		<div class="media-block theme-bg-primary py-5">
+			<div class="container">
+				<h4 class="text-white text-center mb-3">Anteriormente</h4>
+				<div class="section-intro text-center single-col-max mx-auto text-white mb-5">Las conferencias de CATEC
+					son realizadas cada año con el fin de aumentar el conocimiento a estudiantes de la Universidad
+					Privada de Tacna, por el medio tecnológico los estudiantes de último año son convocados para
+					realizar el evento donde se presentan expositores de todo el mundo para hablar de temas en tendencia
+					sobre tecnología.</div>
+				<div class="row">
+					<div class="col-12 col-md-6 mb-3">
+						<div class="embed-responsive embed-responsive-16by9">
+
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/5k8YFUgXPzY?si=y7h6cdQ0A4IvJGuH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<!--//embed-responsive -->
+					</div>
+					<!--//col-->
+					<div class="col-12 col-md-6 mb-md-5">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/bMvL3TYnsyM?si=e45rWy0aYGpHg5vd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<!--//embed-responsive -->
+					</div>
+					<!--//col-->
+				</div>
+				<!--//row-->
+			</div>
+			<!--//container-->
+		</div>
+		<!--//media-block-->
+	</section>
+	<!--//about-section-->
+
+
+
+	<div class="container">
+		<hr>
+	</div>
+
+	<!--//schedule-section-->
+
+	<section id="tickets-section" class="tickets-section section theme-bg-light">
+		
+		<div class="container">
+			<h3 class="section-heading text-center mb-3" style="color: #3F2A8C;">INSCRIPCIONES</h3>
+			<div class="section-intro single-col-max mx-auto text-center mb-4" style="color: #3F2A8C;">Click en la imagen para Empezar con las Inscripciones, ¡Mucha Suerte!.</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSfAA2Fs44nUPaFzadPBa2wbb_4TDeKIsvtv8agfK1lVikOVvg/viewform?usp=sf_link">
+							<div class="profile-card-2"><img src="assets/images/cate2.jpg" class="img img-responsive w-100">
+							</div>
+						</a>
+						<div class="row justify-content-end">
+							<div class="col-5"><a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfAA2Fs44nUPaFzadPBa2wbb_4TDeKIsvtv8agfK1lVikOVvg/viewform?usp=sf_link">Inscripciones</a></div>
+							<div class="col-6"></div>
+						</div>
+			</div>
+			
+					<div class="col-md-4">
+						<a href="https://forms.gle/ckGwiUXd8ZaUckbR9">
+						<div class="profile-card-2"><img src="assets/images/brain2.jpg" class="img img-responsive w-100 h-1">
+						</div>
+						</a>
+						<div class="row justify-content-end">
+							<div class="col-5"><a class="btn btn-primary" href="https://forms.gle/ckGwiUXd8ZaUckbR9">Inscripciones</a></div>
+							<div class="col-6"><a class="btn btn-secondary" href="https://uptpe-my.sharepoint.com/:f:/g/personal/tutoriaepis_upt_pe/EhHsT7EZDONGlb-HxbA0MRoBQMfed7-H0cj2hvesgzaMaQ?e=fCT8fq">Ver Bases</a></div>
+						</div>
+			</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="asistencia-section" class="venue-section section text-center">
+		<div class="container">
+			<br>
+			<h1 class="section-heading mb-3" style="color: #3F2A8C;">Asistencia</h1>
+			<div class="section-intro single-col-max mx-auto text-center mb-4">Recuerda que el registro de los participantes solo estara Abierto por 40 min por cada ponencia en sus fechas y horarios respectivos.</div>
+			
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+					<div id="border-card" class="card" style="width: 18rem;">
+						<img src="assets/images/flags/inteligencia-artificial.jpg" class="card-img-top" alt="...">
+						<div  class="card-body">
+							<h5 class="card-title" style="color: #3F2A8C;">Asistencia</h5>
+							<p class="card-text">1ra Ponencia: INGELIGENCIA ARTIFICIAL <br>
+								<strong>21 de Octubre 17:00 – 18:00</strong>
+							</p>
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLSeBl1ieyySPD-icwUwRQkkYErLfeQJpx0xS4qJuSNmwNy9rgQ/viewform?usp=sf_link" class="btn btn-primary">Registrar</a>
+						</div>
+					  </div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div id="border-card" class="card" style="width: 18rem;">
+						<img src="assets/images/flags/tecnologia.jpg" class="card-img-top" alt="...">
+						<div  class="card-body">
+						  <h5 class="card-title" style="color: #3F2A8C;">Asistencia</h5>
+						  <p class="card-text">2da Ponencia: DISEÑO CENTRADO EN EL USUARIO: CLAVES PARA EL EXITO DE PRODUCTOS DIGITALES<br>
+							<strong>21 de Octubre 18:00 – 19:00</strong>
+						</p>
+						  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvWuZGsALgwcKlEmSS7VEI-E9cY6JfopHBLNyBkPL76v9kzw/viewform?usp=sf_link" class="btn btn-primary">Registrar</a>
+						</div>
+					  </div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div id="border-card" class="card" style="width: 18rem;">
+						<img src="assets/images/flags/cloud_computing.jpg" class="card-img-top" alt="...">
+						<div  class="card-body">
+						  <h5 class="card-title" style="color: #3F2A8C;">Asistencia</h5>
+						  <p class="card-text">3ra Ponencia: CLUSTERING EN BASE DE DATOS<br>
+						<strong>21 de Octubre 19:00 – 20:00</strong></p>
+						  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEXMWqAvfQPjqR4UXCIJYegOECi8xswqkEdBNwpHDjhXig3Q/viewform?usp=sf_link" class="btn btn-primary">Registrar</a>
+						</div>
+					  </div>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+					<div id="border-card" class="card" style="width: 18rem;">
+						<img src="assets/images/flags/ethical_hacking.jpg" class="card-img-top" alt="...">
+						<div  class="card-body">
+						  <h5 class="card-title" style="color: #3F2A8C;">Asistencia</h5>
+						  <p class="card-text">4ta Ponencia: INTRODUCCIÓN AL HACKING ÉTICO<br>
+						<strong>22 de Octubre 17:00 – 18:00</strong></p>
+						  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdTLQv4iXHTAYoVhHGNjHgNM1qujkLVxSE31MBS6CbKZNDYTg/viewform?usp=sf_link" class="btn btn-primary">Registrar</a>
+						</div>
+					  </div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div id="border-card" class="card" style="width: 18rem;">
+						<img src="assets/images/flags/videojuegos.jpeg" class="card-img-top" alt="...">
+						<div  class="card-body">
+						  <h5 class="card-title" style="color: #3F2A8C;">Asistencia</h5>
+						  <p class="card-text">5ta Ponencia: DESARROLLO DE VIDEOJUEGOS<br>
+							<strong>22 de Octubre 18:00 – 19:00</strong>
+						</p>
+						  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfXsWb7PTZRxQKXxP15RehBbAp7PFUcl8aqvHKc0nUUvbEFuA/viewform?usp=sf_link" class="btn btn-primary">Registrar</a>
+						</div>
+					  </div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div id="border-card" class="card" style="width: 18rem;">
+						<img src="assets/images/flags/Microservicios.jpg" class="card-img-top" alt="...">
+						<div  class="card-body">
+						  <h5 class="card-title" style="color: #3F2A8C;">Asistencia</h5>
+						  <p class="card-text">6ta Ponencia: ARQUITECTURA DE SOFTWARE: MONOLITOS A MICROSERVICIOS<br>
+						<strong>23 de Octubre 17:05 – 18:05</strong></p>
+						  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGXwA1KWhKLWG6p6IEeGO77RyODDelb6JTlmR5Z6VZwfaGrg/viewform?usp=sf_link" class="btn btn-primary">Registrar</a>
+						</div>
+					  </div>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+					<div id="border-card" class="card" style="width: 18rem;">
+						<img src="assets/images/flags/machine.jpg" class="card-img-top" alt="...">
+						<div  class="card-body">
+						  <h5 class="card-title" style="color: #3F2A8C;">Asistencia</h5>
+						  <p class="card-text">7ma Ponencia: PROYECTOS EXITOSOS: CÓMO LOGRARLO<br>
+						<strong>24 de Octubre 17:00 – 18:00</strong></p>
+						  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUTPgALMwjF6thSxfjEbI6VsCKtv2_uTYA0XDE3cucz7WULQ/viewform?usp=sf_link" class="btn btn-primary">Registrar</a>
+						</div>
+					  </div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div id="border-card" class="card" style="width: 18rem;">
+						<img src="assets/images/flags/ciencia.jpg" class="card-img-top" alt="...">
+						<div  class="card-body">
+						  <h5 class="card-title" style="color: #3F2A8C;">Asistencia</h5>
+						  <p class="card-text">Debate: "SOFTWARE PROPIETARIO VS SOFTWARE LIBRE"<br>
+							<strong>24 de Octubre 18:10 – 19:10</strong>
+						</p>
+						  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeytIQFZwUc5iHF0V9-PaGKw2woMuEeivqfYg9XXgesPL5UlQ/viewform?usp=sf_link" class="btn btn-primary">Registrar</a>
+						</div>
+					  </div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<section id="venue-section" class="venue-section section text-white text-center ">
+		<h1 class="section-heading mb-3" style="color: #3F2A8C;">Antecedentes</h1>
+		<div class="justify-content-center d-flex flex-wrap">
+			<div class="card w-55">
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+					  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+					</ol>
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<img src="assets/images/antecendentes/catec01.webp" class="img-fluid w-100" alt="Responsive image">
+					  </div>
+					  <div class="carousel-item">
+						<img src="assets/images/antecendentes/catec02.webp" class="img-fluid w-100" alt="Responsive image">
+					  </div>
+					  <div class="carousel-item">
+						<img src="assets/images/antecendentes/catec03.webp" class="img-fluid w-100" alt="Responsive image">
+					  </div>
+					  <div class="carousel-item">
+						<img src="assets/images/antecendentes/catec04.webp" class="img-fluid" alt="Responsive image">
+					  </div>
+					  <div class="carousel-item">
+						<img src="assets/images/antecendentes/catec05.webp" class="img-fluid" alt="Responsive image">
+					  </div>
+					  <div class="carousel-item">
+						<img src="assets/images/antecendentes/catec06.webp" class="img-fluid" alt="Responsive image">
+					  </div>
+					  <div class="carousel-item">
+						<img src="assets/images/antecendentes/catec07.webp" class="img-fluid" alt="Responsive image">
+					  </div>
+					  <div class="carousel-item">
+						<img src="assets/images/antecendentes/catec08.webp" class="img-fluid" alt="Responsive image">
+					  </div>
+					  <div class="carousel-item">
+						<img src="assets/images/antecendentes/catec09.webp" class="img-fluid" alt="Responsive image">
+					  </div>
+					  <div class="carousel-item">
+						<img src="assets/images/antecendentes/catec10.webp" class="img-fluid" alt="Responsive image">
+					  </div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				  </div>
+			  </div>
+		</div>
+	</section>
+	<div class="container">
+		<hr>
+	</div>
+	<section id="location-section" class="venue-section section text-white text-center ">
+		<h1 class="section-heading mb-3" style="color: #3F2A8C;"> Lugar del Evento</h1>
+		<div class="justify-content-center d-flex flex-wrap">
+		<!-- <div class="row logos justify-content-center align-items-baseline"> -->
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d797.6745162600712!2d-70.2269055012756!3d-18.006591827137537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915ac5a21d63f91b%3A0xf3c9e1df84cba938!2sUniversidad%20Privada%20de%20Tacna-%20Facultad%20de%20Ingenier%C3%ADa!5e0!3m2!1ses-419!2spe!4v1684648800843!5m2!1ses-419!2spe" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<!-- </div> -->
+		</div>
+	</section>
+	
+	<section id="sponsors-section" class="sponsors-section section theme-bg-light">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3" style="color: #3F2A8C;">Patrocinadores</h3>
+			<div class="section-intro text-center single-col-max mx-auto mb-5">¿Quieres convertirte en patrocinador?
+				Póngase en contacto.</div>
+			<div class="row logos justify-content-center align-items-baseline">
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/lupaka.png"alt="" class="rounded-circle"></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/mastercontsuite.png"alt="" class="rounded-circle"></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/mistercan.png"alt="" class="rounded-circle"></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/radio.png"alt="" class="rounded-circle"></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/mill.png"alt="" class="rounded-circle"></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/pizz2.png"alt="" class="rounded-circle"></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/sumaq.png"alt="" class="rounded-circle"></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/bocio.png"alt="" class="rounded-circle"></div>
+			</div>
+			<!--//row-->
+			<div class="sponsors-cta text-center pt-5"><a class="btn-primary btn btn-lg"
+					href="mailto:catecupt@gmail.com?subject=Quiero%20apoyar%20como%20patrocinador&body=Mi%20empresa%20esta%20interesada%20en%20participar%20como%20patrocinador%20otorgando%20los%20siguientes%20premio%20como%20ayuda">Conviértete
+					en un patrocinador</a>
+			</div>
+		</div>
+		<!--//container-->
+	</section>
+	<!--//sponsors-section-->
+
+	<footer class="footer py-5 theme-bg-secondary">
+		<div class="container text-center">
+
+			<ul class="social-list list-inline mb-4">
+				<li class="list-inline-item mr-3"><a href="mailto:catecupt@gmail.com"><i
+							class="fas fa-envelope"></i></a></li>
+				<li class="list-inline-item mr-3"><a href="https://www.facebook.com/catec.pe" target="_blank"><i
+							class="fab fa-facebook fa-fw"></i></a></li>
+				<li class="list-inline-item mr-0"><a href="https://www.youtube.com/channel/UC-66owxXp5mgIHxQlg3v2OA" target="_blank"><i
+							class="fab fa-youtube fa-fw"></i></a></li>
+			</ul>
+			<!--//social-list-->
+
+			<!--
+			<ul class="footer-links list-inline mx-auto mb-4">
+				<li class="list-inline-item"><a href="#">Code of Conduct</a></li>
+				<li class="list-inline-item">|</li>
+				<li class="list-inline-item"><a href="#">Terms</a></li>
+				<li class="list-inline-item">|</li>
+				<li class="list-inline-item mr-0"><a href="#">Privacy</a></li>
+			</ul>//footer-link-->
+
+			<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+			<small class="copyright">Universidad Privada de Tacna - Escuela de Ingeniería de Sistemas - CATEC - Forjando
+				Lideres</small><br>
+		</div>
+		<!--//container-->
+	</footer>
+
+	
+
+	<!-- Javascript -->
+	<script src="assets/plugins/jquery-3.4.1.min.js"></script>
+	<script src="assets/plugins/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/plugins/back-to-top.js"></script>
+	<script src="assets/plugins/jquery.scrollTo.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/action.js"></script>
+	<script type="text/javascript">
+		document.addEventListener('contextmenu', function (e) {
+		  e.preventDefault();
+		});
+	  </script>
+</body>
+
+</html>
